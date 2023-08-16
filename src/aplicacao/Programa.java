@@ -32,6 +32,8 @@ public class Programa {
 				System.out.println("Informe o segundo número para testar:");
 				n2 = sc.nextInt();
 				System.out.println(amigos(n1,n2));
+			break;
+			default : System.out.println("Opção inválida");
 			}
 		} while (op != 4);
 	}
